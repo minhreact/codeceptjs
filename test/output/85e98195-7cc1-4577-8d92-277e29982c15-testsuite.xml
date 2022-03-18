@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647310750979' stop='1647310754012'>
+    <name>test_login:</name>
+    <title>test_login:</title>
+    <test-cases>
+        <test-case start='1647310751621' status='passed' stop='1647310753827'>
+            <name>test_login_github</name>
+            <title>test_login_github</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1647310751821' status='passed' stop='1647310753438'>
+                    <name>I am on page "https://github.com"</name>
+                    <title>I am on page "https://github.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647310753438' status='passed' stop='1647310753824'>
+                    <name>I grab text from "h1"</name>
+                    <title>I grab text from "h1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647310753825' status='passed' stop='1647310753826'>
+                    <name>I write to file "test_title.txt", "title"</name>
+                    <title>I write to file "test_title.txt", "title"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

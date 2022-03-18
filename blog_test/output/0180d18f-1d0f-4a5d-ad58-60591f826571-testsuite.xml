@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647311683419' stop='1647311686705'>
+    <name>test_blog:</name>
+    <title>test_blog:</title>
+    <test-cases>
+        <test-case start='1647311684165' status='failed' stop='1647311686376'>
+            <name>test blog</name>
+            <title>test blog</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1647311684375' status='passed' stop='1647311686343'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647311686344' status='passed' stop='1647311686372'>
+                    <name>I grab text from "h1"</name>
+                    <title>I grab text from "h1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2ac51264-11d5-4c22-994e-f0806ddbd0b0-attachment.png' type='image/png' size='130398'/>
+            </attachments>
+            <failure>
+                <message>I.writeToFile is not a function</message>
+                <stack-trace>TypeError: I.writeToFile is not a function
+                    at Test.&lt;anonymous> (C:\Users\Minh\Desktop\codeceptjs_test\blog_test\test_blog_test.js:7:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
