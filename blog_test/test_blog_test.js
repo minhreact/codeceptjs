@@ -26,12 +26,13 @@ Scenario("test blog", async ({ I }) => {
   
   `
   );
-//   I.writeToFile("test.csv", `{
-//     title       tag
-//     ${title}    ${tag1} 
-//                 ${tag2}
-//                 ${tag3}
-// }`);
+  I.writeToFile("test.csv", `{
+    title       tag
+    ${title}    ${tag1} 
+                ${tag2}
+                ${tag3}
+}`);
+// thay  doi
 
     I.writeToFile("test.csv", `{
       ${title}
